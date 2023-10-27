@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radio_ti"
+        android:text="Teknik Informatika"
+        android:onClick="onRadioButtonClicked"
+        tools:ignore="UsingOnClickInXml"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radio_si"
+        android:text="Sistem Informasi"
+        android:onClick="onRadioButtonClicked"
+        tools:ignore="UsingOnClickInXml"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radio_ka"
+        android:text="Komputerisasi Akuntansi"
+        android:onClick="onRadioButtonClicked"
+        tools:ignore="UsingOnClickInXml"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radio_mi"
+        android:text="Manajemen Informatika"
+        android:onClick="onRadioButtonClicked"
+        tools:ignore="UsingOnClickInXml"/>
+</RadioGroup>
+

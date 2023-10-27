@@ -1,0 +1,9 @@
+<resources>
+    <string name="hello">Hello, RadioButton Sederhana</string>
+    <string name="app_name">Pilihan Program Studi</string>
+    <string name="teknik_informatika">Teknik Informatika</string>
+    <string name="sistem_informasi">Sistem Informasi</string>
+    <string name="komputerisasi_akuntansi">Komputerisasi Akuntansi</string>
+    <string name="manajemen_informatika">Manajemen Informatika</string>
+
+</resources>
